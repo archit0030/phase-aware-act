@@ -1,0 +1,12 @@
+{
+  "method": "act_k10",
+  "split": "P2",
+  "task": "table_center",
+  "episode": 0,
+  "steps": 220,
+  "success": false,
+  "success_step": null,
+  "max_bowl_lift_mm": 44.00472169043057,
+  "final_bowl_plate_xy_mm": 102.69680547246774,
+  "max_replay_error_mm": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "split": "Standard",
+  "episode": 0,
+  "steps": 102,
+  "recorded_success": true,
+  "replayed_success": true,
+  "max_bowl_lift_above_settled_start_mm": 149.87085432785864,
+  "final_bowl_plate_xy_distance_mm": 16.648757735033158,
+  "final_bowl_m": [
+    0.08213657352986607,
+    0.18741534353955833,
+    0.9116080068193643
+  ],
+  "final_plate_m": [
+    0.07164753920249346,
+    0.20034443063026297,
+    0.9030691337974204
+  ],
+  "task": "table_center",
+  "method": "pa_act"
+}

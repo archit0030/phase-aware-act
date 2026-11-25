@@ -1,0 +1,17 @@
+{
+  "method": "act_k10",
+  "split": "Standard",
+  "successes": 38,
+  "episodes": 40,
+  "success_rate_pct": 95.0,
+  "per_task": {
+    "between_plate_ramekin": {
+      "successes": 18,
+      "episodes": 20
+    },
+    "table_center": {
+      "successes": 20,
+      "episodes": 20
+    }
+  }
+}

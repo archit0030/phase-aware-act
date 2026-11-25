@@ -1,0 +1,14 @@
+{
+  "epochs": 10,
+  "batch_size": 8,
+  "gradient_accumulation": 1,
+  "validation_batch_size": 16,
+  "num_workers": 4,
+  "amp": true,
+  "amp_dtype": "bfloat16",
+  "validation_demos": 5,
+  "demonstrations": 50,
+  "std_floor": 0.01,
+  "samplewise_nll": true,
+  "seed": 0
+}

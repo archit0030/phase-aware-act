@@ -1,0 +1,17 @@
+{
+  "method": "pa_act",
+  "split": "P2",
+  "successes": 0,
+  "episodes": 40,
+  "success_rate_pct": 0.0,
+  "per_task": {
+    "between_plate_ramekin": {
+      "successes": 0,
+      "episodes": 20
+    },
+    "table_center": {
+      "successes": 0,
+      "episodes": 20
+    }
+  }
+}

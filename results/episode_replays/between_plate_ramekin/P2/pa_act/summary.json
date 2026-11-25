@@ -1,0 +1,21 @@
+{
+  "split": "P2",
+  "episode": 0,
+  "steps": 220,
+  "recorded_success": false,
+  "replayed_success": false,
+  "max_bowl_lift_above_settled_start_mm": 107.73286728269294,
+  "final_bowl_plate_xy_distance_mm": 163.81641612320638,
+  "final_bowl_m": [
+    0.10971835715504563,
+    0.19355584711921955,
+    0.9314726062829388
+  ],
+  "final_plate_m": [
+    0.057812783834600284,
+    0.03818007793455106,
+    0.9024998346667837
+  ],
+  "task": "between_plate_ramekin",
+  "method": "pa_act"
+}

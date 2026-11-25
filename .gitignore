@@ -1,0 +1,8 @@
+.venv/
+third_party/
+data/
+runs/
+checkpoints/
+__pycache__/
+*.pyc
+.pytest_cache/

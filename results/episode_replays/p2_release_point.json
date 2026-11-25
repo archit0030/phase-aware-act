@@ -1,0 +1,34 @@
+[
+  {
+    "task": "between_plate_ramekin",
+    "episode": 0,
+    "distance_to_Standard_run_plate_location_mm": 32.69635491988756,
+    "distance_to_actual_P2_plate_mm": 161.26747098078914,
+    "closer_to_Standard_plate": true,
+    "method": "act_k50"
+  },
+  {
+    "task": "table_center",
+    "episode": 0,
+    "distance_to_Standard_run_plate_location_mm": 172.89283158429748,
+    "distance_to_actual_P2_plate_mm": 61.131090320535826,
+    "closer_to_Standard_plate": false,
+    "method": "act_k50"
+  },
+  {
+    "task": "between_plate_ramekin",
+    "episode": 0,
+    "distance_to_Standard_run_plate_location_mm": 59.069179483590176,
+    "distance_to_actual_P2_plate_mm": 163.81641612320638,
+    "closer_to_Standard_plate": true,
+    "method": "pa_act"
+  },
+  {
+    "task": "table_center",
+    "episode": 0,
+    "distance_to_Standard_run_plate_location_mm": 28.29529093661675,
+    "distance_to_actual_P2_plate_mm": 149.25219434652146,
+    "closer_to_Standard_plate": true,
+    "method": "pa_act"
+  }
+]

@@ -1,0 +1,4 @@
+method,episodes,reached_and_touched_bowl_pct,placed_on_plate_pct
+act_k50,40,100.0,0.0
+act_k10,40,100.0,2.5
+pa_act,40,100.0,0.0

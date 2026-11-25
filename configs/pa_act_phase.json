@@ -1,0 +1,64 @@
+{
+  "policy": {
+    "state_dim": 9,
+    "action_dim": 7,
+    "num_queries": 50,
+    "camera_names": [
+      "agentview",
+      "robot0_eye_in_hand"
+    ],
+    "image_obs_keys": [
+      "agentview_image",
+      "robot0_eye_in_hand_image"
+    ],
+    "qpos_obs_keys": [
+      "robot0_joint_pos",
+      "robot0_gripper_qpos"
+    ],
+    "flip_images_vertical": false,
+    "image_height": 128,
+    "image_width": 128,
+    "hidden_dim": 256,
+    "dim_feedforward": 3200,
+    "enc_layers": 4,
+    "dec_layers": 7,
+    "nheads": 8,
+    "dropout": 0.1,
+    "pre_norm": false,
+    "backbone": "resnet18",
+    "lr": 1e-05,
+    "lr_backbone": 1e-05,
+    "kl_weight": 10,
+    "use_uncertainty": true,
+    "use_wrist_attention": true,
+    "short_horizon": 8,
+    "wrist_camera": "robot0_eye_in_hand",
+    "global_attention_scale": 0.1,
+    "legacy_l1_reduction": true,
+    "dataset_qpos_keys": [
+      "joint_states",
+      "gripper_states"
+    ],
+    "dataset_image_keys": [
+      "agentview_rgb",
+      "eye_in_hand_rgb"
+    ],
+    "dataset_flip_images_vertical": false,
+    "dataset_action_offset": 1,
+    "dataset_observation_state_offset": 1,
+    "phase_aware_wrist_attention": true,
+    "use_qpos_dropout": true,
+    "qpos_dropout_prob": 0.3,
+    "gripper_qpos_indices": [
+      7,
+      8
+    ],
+    "gripper_open_width_m": 0.06
+  },
+  "ensemble": {
+    "use_dute": true,
+    "m": 0.01,
+    "lambda_1": 1.0,
+    "lambda_2": 1.0
+  }
+}

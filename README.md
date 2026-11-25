@@ -143,3 +143,9 @@ All clips are replays of the logged episode 0, rendered from the recorded action
 - ACT: Zhao et al., *Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware*, 2023, https://github.com/tonyzhaozh/act. The `detr/` code is based on it (license in `detr/LICENSE`).
 - LIBERO: Liu et al., 2023, https://github.com/Lifelong-Robot-Learning/LIBERO.
 - LIBERO-PRO: https://github.com/Zxy-MLlab/LIBERO-PRO. The P1/P2 task files in `assets/` come from it (CC-BY-4.0).
+
+## License
+
+Released under the [MIT License](LICENSE). The code in `detr/` keeps its original
+notices (ACT, MIT, see `detr/LICENSE`; some files are derived from Facebook's DETR).
+The LIBERO-PRO task files in `assets/` are under CC BY 4.0.

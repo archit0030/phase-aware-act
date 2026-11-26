@@ -1,4 +1,4 @@
-# AR523 Project: Phase-Aware ACT (PA-ACT) on LIBERO-PRO
+# Phase-Aware ACT (PA-ACT) on LIBERO-PRO
 
 This project tests whether Action Chunking with Transformers (ACT) still works when objects in the scene are moved. It compares three policies on two LIBERO-Spatial pick-and-place tasks:
 
@@ -91,7 +91,7 @@ for f in checkpoints/*.tar; do tar -xf "$f" -C checkpoints && rm "$f"; done
 # -> checkpoints/act_k50/table_center/policy_best.ckpt, checkpoints/pa_act/..., ...
 ```
 
-**Results and videos.** The same results as in `results/`, plus the videos, are also in Google Drive: [AR523_PA-ACT_Results](https://drive.google.com/drive/folders/1h3XUWm2n_kxjkLnerlORcKpfJPlSmVzR) (`results_tables_logs_replays.zip` and `videos/`).
+**Results and videos.** The same results as in `results/`, plus the videos, are also in Google Drive: [PA-ACT_Results](https://drive.google.com/drive/folders/1h3XUWm2n_kxjkLnerlORcKpfJPlSmVzR) (`results_tables_logs_replays.zip` and `videos/`).
 
 ## Evaluate
 
